@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica';
+    font-size: 22px;
+    background-color: black;
+    color: seashell;
+    opacity: .9;
+}
+
+.nav {
+    height: 69px;
+    width: 100%;
+    padding: 24px 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.logo {
+    height: 32px;
+}
+
+.nav-list {
+    width: 500px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.nav-items {
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    margin-left: 24px;
+}
+
+.nav-items:hover {
+    text-decoration: underline;
+}
+
+.header {
+
+    background-image: url(./assets/img-mission-background.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-bg {
+    background-color: black;
+    width: 100%;
+    padding: 24px;
+    text-align: center;
+}
+
+.subtitle, .cat-title {
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.title {
+    margin-bottom: 18px;
+    font-weight: 500;
+}
+
+
+/* Categories */
+
+.categories {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.cat-img {
+    height: 300px;
+}
+
+.items {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+/* LOCATIONS */
+
+.locations {
+    height: 500px;
+    background-image: url(./assets/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.loc-title {
+    margin-bottom: 24px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+
+.card-1 {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    padding: 24px;
+    text-align: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+    height: 200px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.copyright {
+    padding: 24px;
+    align-content: flex-start;
+}
